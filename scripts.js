@@ -46,7 +46,6 @@ function printLocation(locations) {
     } else {
       list.innerHTML += `
         <li class="location unknown ${location.type}"> ${location.name} (${location.type}) - ${location.dimension} </li>
-        <img src="${location.image}" >
         `
     }
   }
